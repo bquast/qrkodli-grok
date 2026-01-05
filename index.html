@@ -9,12 +9,13 @@
 <body>
     <div class="container">
         <h1>QRkodli</h1>
-        <p>Generate a QR code for any URL</p>
+        <p>Generate short QR codes for map links (Google, Apple, etc.)</p>
         
-        <input type="url" id="urlInput" placeholder="Enter URL (e.g., https://example.com)" required>
+        <input type="url" id="urlInput" placeholder="Enter map URL (e.g., https://maps.app.goo.gl/...)" required>
         <button id="generateBtn">Generate QR</button>
         
         <div id="qrContainer" class="hidden">
+            <p id="shortUrlDisplay">Short URL: <span id="shortUrl"></span></p>
             <div id="qrcode"></div>
             <button id="downloadBtn">Download PNG</button>
             <button id="shareBtn">Share</button>

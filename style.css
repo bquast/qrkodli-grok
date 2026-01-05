@@ -87,3 +87,13 @@ button:hover {
         padding: 30px;
     }
 }
+
+#shortUrlDisplay {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    word-break: break-all;
+}
+
+#shortUrl {
+    font-weight: bold;
+}
